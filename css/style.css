@@ -1,5 +1,26 @@
+/* UTILITY*/
 
+.bg-color-white {
+  background-color: #fff;
+}
+
+.jumbotron-content-position {
+  padding: 30px 0px;
+}
+
+.font-white {
+  color: #fff;
+}
+
+.font-transparent {
+  opacity: 0.7;
+}
+
+.font-blue {
+  color: #2A80F9;
+}
 /* navbar */
+
 .nav-row {
   height: 60px;
 }
@@ -44,5 +65,19 @@
   background-color: #fff;
   color: #2A80F9;
   border: 1px solid #2A80F9;
+  border-radius: 5px;
+}
+
+/* jumbotron */
+
+.bg-jumbotron {
+  background-image: url("../img/bg-jumbotron.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+form {
+  padding: 20px;
   border-radius: 5px;
 }
