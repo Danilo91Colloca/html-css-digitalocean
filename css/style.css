@@ -4,6 +4,10 @@
   background-color: #fff;
 }
 
+.bg-color-lightgrey {
+  background-color: #F1F3F8;
+}
+
 .jumbotron-content-position {
   padding: 30px 0px;
   margin-bottom: 60px;
@@ -21,6 +25,10 @@
   color: #2A80F9;
 }
 
+.font-gray {
+  color: #63708B;
+}
+
 .icon-img-resize > img {
   height: 18px;
 }
@@ -36,6 +44,11 @@
 
 .nav-logo > img {
   width: 158px;
+}
+
+.customers-logo > img {
+  width: 160px;
+  text-align: center;
 }
 
 .nav-row > ul > li {
@@ -102,6 +115,38 @@ form {
   float: left;
 }
 
+.text-customers-position {
+  margin: 30px 0px 30px 0px;
+}
+
 .service-terms-content {
   margin: 15px 0px;
+}
+
+.logo-customers-content {
+  margin: 20px 0px;
+}
+
+
+/* media query */
+
+/* sm */
+@media screen and (min-width: 768px) {
+  .customers-logo > img {
+    width: 96px;
+    vertical-align: middle;
+  }
+
+
+}
+
+
+
+
+
+
+/* md */
+@media screen and (min-width: 992px) {
+
+
 }
