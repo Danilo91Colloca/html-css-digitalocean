@@ -19,6 +19,10 @@
 .font-blue {
   color: #2A80F9;
 }
+
+.icon-img-resize > img {
+  height: 18px;
+}
 /* navbar */
 
 .nav-row {
@@ -80,4 +84,16 @@
 form {
   padding: 20px;
   border-radius: 5px;
+}
+
+.review-button-block {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+
+.review-button-block > span > .icon-img-resize {
+  text-align: left;
 }
