@@ -6,6 +6,7 @@
 
 .jumbotron-content-position {
   padding: 30px 0px;
+  margin-bottom: 60px;
 }
 
 .font-white {
@@ -22,6 +23,10 @@
 
 .icon-img-resize > img {
   height: 18px;
+}
+
+.text-underline {
+  text-decoration: underline;
 }
 /* navbar */
 
@@ -93,7 +98,10 @@ form {
   margin-bottom: 5px;
 }
 
+.review-button-block > .icon-img-resize {
+  float: left;
+}
 
-.review-button-block > span > .icon-img-resize {
-  text-align: left;
+.service-terms-content {
+  margin: 15px 0px;
 }
