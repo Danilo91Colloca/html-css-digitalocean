@@ -176,6 +176,7 @@ form {
 .img-swipe {
   margin-bottom: 10px;
 }
+
 .img-swipe > img {
   width: 100%;
   max-width: 300px;
@@ -189,17 +190,27 @@ form {
   .customers-logo > img {
     width: 96px;
   }
-.product-explanation-section .product-specifics-ul {
-  margin-left: 80px;
+  .product-explanation-section .product-specifics-ul {
+    margin-left: 80px;
+  }
+
+  .img-swipe > img {
+    width: 100%;
+    max-width: 390px;
+  }
 }
 
-.img-swipe > img {
-  width: 100%;
-  max-width: 390px;
+.left-chevron,
+.right-chevron {
+  font-size: 20px;
+  color: #63708B;
+  margin: 0 20px;
 }
 
+.left-chevron:hover,
+.right-chevron:hover {
+  color: #071D4B ;
 }
-
 
 
 
@@ -212,4 +223,18 @@ form {
     width: 100%;
     max-width: 600px;
   }
+
+  .left-chevron,
+  .right-chevron {
+    font-size: 30px;
+    color: #63708B;
+    margin: 0 20px;
+  }
+  
+  .left-chevron:hover,
+  .right-chevron:hover {
+    color: #071D4B ;
+  }
+
+
 }
