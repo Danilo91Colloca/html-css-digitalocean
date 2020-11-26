@@ -182,21 +182,28 @@ form {
   max-width: 300px;
 }
 
-.swipe-input-container{
+/* creazione radiobutton */
+
+.radio-btn-container{
   display: inline-block;
 }
 
-
+.swipe-btn-container {
+  margin-top: 40px;
+}
 
 .radio-btn-custom {
-      width: 10px;
-      height: 10px;
-      background: red;
-      border-radius: 50%;
-      border:1px solid #2A80F9;
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border-radius: 50%;
+  border:2px solid #2A80F9;
+  margin-left: 3px;
+}
 
-    }
-
+.radio-btn-custom:hover {
+  background: #2A80F9;
+}
 
 
 
@@ -252,6 +259,13 @@ form {
   .right-chevron:hover {
     color: #071D4B ;
   }
+  .swipe-btn-container {
+    margin-top: 15px;
+  }
 
+  .radio-btn-custom {
+    width: 13px;
+    height: 13px;
+  }
 
 }
