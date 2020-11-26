@@ -142,7 +142,8 @@ form {
 }
 
 /* products explanation section */
-.main-title-product-explanation {
+.main-title-product-explanation,
+.main-title-developer-section {    /*selector for developer title section*/
   margin: 30px 0px;
 }
 
@@ -160,6 +161,10 @@ form {
   border-left: 2px solid #2A80F9;
   padding-left: 15px;
   color: #071D4B;
+}
+
+.box-specifics {
+  margin-bottom: 30px;
 }
 
 
