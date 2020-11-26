@@ -167,6 +167,19 @@ form {
   margin-bottom: 30px;
 }
 
+/* sezione photoshift */
+
+.photo-swipe {
+  margin: 100px 0px;
+}
+
+.img-swipe {
+  margin-bottom: 10px;
+}
+.img-swipe > img {
+  width: 100%;
+  max-width: 300px;
+}
 
 
 /* media query */
@@ -176,6 +189,14 @@ form {
   .customers-logo > img {
     width: 96px;
   }
+.product-explanation-section .product-specifics-ul {
+  margin-left: 80px;
+}
+
+.img-swipe > img {
+  width: 100%;
+  max-width: 390px;
+}
 
 }
 
@@ -187,5 +208,8 @@ form {
 /* md */
 @media screen and (min-width: 992px) {
 
-
+  .img-swipe > img {
+    width: 100%;
+    max-width: 600px;
+  }
 }
