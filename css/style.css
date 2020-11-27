@@ -2,16 +2,35 @@
 body {
   font-family: Sailec-Regular,"system-ui",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,"sans-serif";
 }
-ul {
-  padding: 0;
-}
-.position-relative {
-  position: relative;
-}
-.safe-width {
+
+.safe-width {        /*permette di non avere rotture del layout sotto i 358px*/
   min-width: 358px;
 }
 
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.main-title-margin {
+  margin: 30px 0px;
+}
+
+.box-margin {
+  margin-bottom: 30px;
+}
+/* utility color */
 .bg-color-white {
   background-color: #fff;
 }
@@ -23,8 +42,9 @@ ul {
 .bg-color-darkblue {
   background-color: #071D4B;
 }
-.jumbotron-content-position {
-  padding: 30px 0px;
+
+.bg-color-blue-gradient {
+  background-image: linear-gradient(#114BBE, #012488);
 }
 
 .font-white {
@@ -55,21 +75,30 @@ ul {
   color: #7C859B;
 }
 
+.tab-border-style{
+  border-bottom: 1px solid #fff;
+}
+
+/* size fisse */
+
+
+.img-swipe > .text-box-carousel > img {
+  max-width:300px;
+}
+
+.customers-logo > img {
+  width: 160px;
+  text-align: center;
+}
+
 .icon-img-resize > img {
   height: 18px;
 }
 
-.text-underline {
-  text-decoration: underline;
+.get-started-section {
+  height: 250px;
 }
 
-li {
-  list-style: none;
-}
-
-.bg-color-blue-gradient {
-  background-image: linear-gradient(#114BBE, #012488);
-}
 /* navbar */
 
 .nav-row {
@@ -122,7 +151,12 @@ li {
 .nav-right {
   float: right;
 }
+
 /* jumbotron */
+
+.jumbotron-content-position {
+  padding: 30px 0px;
+}
 
 .bg-jumbotron {
   background-image: url("../img/bg-jumbotron.svg");
@@ -156,23 +190,12 @@ form {
 }
 
 /* customers section */
+
 .logo-customers-content {
   margin: 20px 0px;
 }
 
-.customers-logo > img {
-  width: 160px;
-  text-align: center;
-}
-
 /* products explanation section */
-.main-title-product-explanation,
-.main-title-developer-section,
-.main-title-features {
-  margin: 30px 0px;
-}
-
-
 
 .product-explanation-section .product-specifics-ul > li {
   border-left: 2px solid #63708B;
@@ -184,14 +207,6 @@ form {
   border-left: 2px solid #2A80F9;
   padding-left: 15px;
   color: #071D4B;
-}
-
-.product-specifics-ul,
-.box-specifics,
-.box-features,
-.box-table-one,
-.box-table {
-  margin-bottom: 30px;
 }
 
 
@@ -235,28 +250,29 @@ form {
 
 /* tab */
 
-.tab-border-style{
-  border-bottom: 1px solid #fff;
-}
 
 ul.row-item-container{
   width: 100%;
 }
+
 ul.row-item-container li {
   display: inline-block;
   font-size: 13px;
 }
+
 ul.row-item-container li:first-child {
   color: #fff;
   width: 80px;
   text-transform: uppercase;
 }
+
 ul.row-item-container li:nth-child(2) {
   color: #fff;
   text-transform:capitalize;
   width: 160px;
   text-align: left;
 }
+
 ul.row-item-container li:nth-child(3) {
   width: 80px;
   text-align: center;
@@ -270,9 +286,7 @@ ul.row-item-container li:nth-child(3) {
   background-color: #fff;
   padding: 10px;
 }
-.img-swipe > .text-box-carousel > img {
-  max-width:300px;
-}
+
 .quote {
   font-size: 25px;
   margin: 20px 0px;
@@ -280,10 +294,6 @@ ul.row-item-container li:nth-child(3) {
 .author-quote {
   font-weight: bolder;
   margin-bottom: 15px;
-}
-
-.get-started-section {
-  height: 250px;
 }
 
 .button-create-account {
@@ -309,20 +319,22 @@ ul.row-item-container li:nth-child(3) {
 
 .logo-footer {
   margin-bottom: 10px;
-
 }
+
 .social-icon > i {
-  font-size: 15px;
-  margin-right: 5px;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-right: 10px;
 }
 
-footer > ul {
-  margin: 0px;
+.social-icon > i:hover,
+.footer-list > li:hover {
+  color: #fff;
 }
-
 /* media query */
 
-/* sm */
+/* SM */
+
 @media screen and (min-width: 768px) {
   .customers-logo > img {
     width: 96px;
@@ -339,7 +351,6 @@ footer > ul {
 
   }
 
-
   .left-chevron,
   .right-chevron {
     font-size: 20px;
@@ -355,11 +366,9 @@ footer > ul {
 
 }
 
+/* MD */
 
-
-/* md */
 @media screen and (min-width: 992px) {
-
   .img-swipe > img,
   .img-swipe > .text-box-carousel {
     width: 100%;
@@ -367,7 +376,6 @@ footer > ul {
     vertical-align: middle;
 
   }
-
 
   .left-chevron,
   .right-chevron {
