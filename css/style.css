@@ -217,23 +217,32 @@ form {
 /* tab */
 .tab-border-style{
   border-bottom: 1px solid #fff;
-  line-height: 30px;
 }
 
+ul.row-item-container{
+  padding: 0px;
+  width: 100%;
+  min-height: 30px;
+  max-height: 100px;
+}
 ul.row-item-container li {
   display: inline-block;
+  font-size: 13px;
 }
 ul.row-item-container li:first-child {
   color: #fff;
-  width: 100px;
+  width: 80px;
   text-transform: uppercase;
 }
 ul.row-item-container li:nth-child(2) {
   color: #fff;
-  margin-right: 5px;
   text-transform:capitalize;
+  width: 150px;
+  text-align: left;
 }
 ul.row-item-container li:nth-child(3) {
+  width: 90px;
+  text-align: center;
   float: right;
 }
 
