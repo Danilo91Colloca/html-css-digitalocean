@@ -7,6 +7,9 @@ body {
   min-width: 358px;
 }
 
+a:hover {
+  text-decoration: none;
+}
 ul {
   padding: 0;
 }
@@ -79,6 +82,9 @@ li {
   border-bottom: 1px solid #fff;
 }
 
+.link-hover:hover {
+  color: #083ff5;
+}
 /* size fisse */
 
 
@@ -105,7 +111,7 @@ li {
   height: 60px;
 }
 
-.nav-logo > img {
+.nav-logo > a >img {
   width: 158px;
 }
 
@@ -144,6 +150,13 @@ li {
 .button-white {
   background-color: #fff;
   color: #2A80F9;
+  border: 1px solid #2A80F9;
+  border-radius: 5px;
+}
+
+.button-white:hover {
+  background-color: #2A80F9;
+  color: #fff;
   border: 1px solid #2A80F9;
   border-radius: 5px;
 }
@@ -303,6 +316,9 @@ ul.row-item-container li:nth-child(3) {
   margin: 20px 0px;
 }
 
+.button-create-account:hover {
+  opacity: 0.8;
+}
 .main-title-get {
   margin:0;
   position:absolute;
