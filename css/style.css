@@ -3,6 +3,10 @@ body {
   font-family: Sailec-Regular,"system-ui",-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,"sans-serif";
 }
 
+.safe-width {
+  min-width: 358px;
+}
+
 .bg-color-white {
   background-color: #fff;
 }
@@ -215,6 +219,7 @@ form {
 }
 
 /* tab */
+
 .tab-border-style{
   border-bottom: 1px solid #fff;
 }
@@ -222,8 +227,6 @@ form {
 ul.row-item-container{
   padding: 0px;
   width: 100%;
-  min-height: 30px;
-  max-height: 100px;
 }
 ul.row-item-container li {
   display: inline-block;
@@ -237,11 +240,11 @@ ul.row-item-container li:first-child {
 ul.row-item-container li:nth-child(2) {
   color: #fff;
   text-transform:capitalize;
-  width: 150px;
+  width: 160px;
   text-align: left;
 }
 ul.row-item-container li:nth-child(3) {
-  width: 90px;
+  width: 80px;
   text-align: center;
   float: right;
 }
