@@ -85,8 +85,8 @@ li {
 .link-hover:hover {
   color: #083ff5;
 }
-/* size fisse */
 
+/* size fisse */
 
 .img-swipe > .text-box-carousel > img {
   max-width:300px;
@@ -222,8 +222,7 @@ form {
   color: #071D4B;
 }
 
-
-/* sezione photoshift */
+/* carousel one*/
 
 .photo-swipe {
   margin: 100px 0px;
@@ -238,7 +237,7 @@ form {
   max-width: 300px;
 }
 
-/* creazione radiobutton */
+/* creazione radiobutton del carousel */
 
 .radio-btn-container{
   display: inline-block;
@@ -262,7 +261,6 @@ form {
 }
 
 /* tab */
-
 
 ul.row-item-container{
   width: 100%;
@@ -292,6 +290,8 @@ ul.row-item-container li:nth-child(3) {
   float: right;
 }
 
+/* carousel two */
+
 .img-swipe > .text-box-carousel {
   display: inline-block;
   width: 100%;
@@ -304,10 +304,13 @@ ul.row-item-container li:nth-child(3) {
   font-size: 25px;
   margin: 20px 0px;
 }
+
 .author-quote {
   font-weight: bolder;
   margin-bottom: 15px;
 }
+
+/* sezione get started */
 
 .button-create-account {
   display: inline-block;
@@ -319,6 +322,7 @@ ul.row-item-container li:nth-child(3) {
 .button-create-account:hover {
   opacity: 0.8;
 }
+
 .main-title-get {
   margin:0;
   position:absolute;
@@ -347,6 +351,7 @@ ul.row-item-container li:nth-child(3) {
 .footer-list > li:hover {
   color: #fff;
 }
+
 /* media query */
 
 /* SM */
