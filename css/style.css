@@ -7,6 +7,13 @@ body {
   min-width: 358px;
 }
 
+.fixed-bottom{
+  position: fixed;
+  z-index: 100;
+  bottom: 50px;
+  left: 50px;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -138,8 +145,9 @@ li {
   padding-top: 15px;
 }
 
+
 .hamburger-icon > i {
-  font-size: 30px;
+  font-size: 25px;
   color: #2A80F9;
 }
 
@@ -246,7 +254,8 @@ form {
 
 /* creazione radiobutton del carousel */
 
-.radio-btn-container{
+.radio-btn-container,
+.shark {
   display: inline-block;
 }
 
@@ -358,6 +367,48 @@ ul.row-item-container li:nth-child(3) {
   color: #fff;
 }
 
+/* shark speech bubble */
+.shark > img {
+  height: 55px;
+  transform: translateY(-10px);
+  opacity: 0.5;
+}
+
+.shark :hover  {
+  opacity: 1;
+}
+
+.speech-bubble {
+  display:inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  min-width: 50px;
+  max-width: 348px;
+  max-height: 70px;
+  margin: 10px;
+  vertical-align: bottom;
+  position: relative;
+  opacity: 0;
+}
+.speech-bubble::before {
+  display: inline;
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  top: 40px;
+  left: -5px;
+  transform: rotate(45deg);
+  border: 5px solid #fff;
+}
+
+.text-speech-bubble {
+  padding: 10px;
+}
+
+.shark:hover ~ .speech-bubble {
+  opacity: 1;
+}
+
 /* media query */
 
 /* SM */
@@ -423,6 +474,32 @@ ul.row-item-container li:nth-child(3) {
   .radio-btn-custom {
     width: 13px;
     height: 13px;
+  }
+
+  .fixed-bottom{
+    position: fixed;
+    z-index: 100;
+    bottom: 50px;
+    left: auto;
+    right: 50px;
+  }
+  .shark {
+    float: right;
+    transform: translateY(25px);
+  }
+
+  .speech-bubble::before {
+    display: none
+  }
+  .speech-bubble::after {
+    display: inline;
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    top: 40px;
+    right: -5px;
+    transform: rotate(45deg);
+    border: 5px solid #fff;
   }
 
 }
