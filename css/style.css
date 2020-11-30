@@ -31,8 +31,12 @@ li {
   margin: 30px 0px;
 }
 
-.box-margin {
+.box-margin-bottom {
   margin-bottom: 30px;
+}
+
+.disp-inlineblock {
+  display: inline-block;
 }
 
 /* utility color */
@@ -184,7 +188,7 @@ li {
 }
 
 .bg-jumbotron {
-  background-image: url("../img/bg-jumbotron.svg");
+  background-image: url("../img/digitalocean/bg-jumbotron.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -205,7 +209,7 @@ form {
 
 .button-icon::before {
   content:"";
-  background-image: url("../img/g-icon.png");
+  background-image: url("../img/icon/g-icon.png");
   background-size:25px;
   width:25px;
   height:25px;
@@ -247,11 +251,6 @@ form {
 }
 
 /* creazione radiobutton del carousel */
-
-.radio-btn-container,
-.shark {
-  display: inline-block;
-}
 
 .swipe-btn-container {
   margin-top: 40px;
@@ -342,7 +341,6 @@ ul.row-item-container li:nth-child(3) {
 }
 
 /* footer */
-
 
 .logo-footer {
   margin-bottom: 10px;
