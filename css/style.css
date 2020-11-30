@@ -188,10 +188,17 @@ form {
   width: 100%;
   font-size: 18px;
   margin-bottom: 5px;
+  position: relative;
 }
 
-.review-button-block > .icon-img-resize {
-  float: left;
+.button-icon::before {
+  content:"";
+  background-image: url("../img/g-icon.png");
+  background-size:25px;
+  width:25px;
+  height:25px;
+  position: absolute;
+  left: 5px;
 }
 
 .text-customers-position {
@@ -332,7 +339,6 @@ ul.row-item-container li:nth-child(3) {
 }
 
 /* footer */
-
 .row-footer {
   margin: 30px;
 }
@@ -409,6 +415,7 @@ ul.row-item-container li:nth-child(3) {
   .right-chevron:hover {
     color: #071D4B ;
   }
+
   .swipe-btn-container {
     margin-top: 15px;
   }
